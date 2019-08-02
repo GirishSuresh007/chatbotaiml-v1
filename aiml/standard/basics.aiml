@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<aiml>   
+	<category>
+		<pattern>Hi</pattern>
+		<template>Hello User, Welcome to learning of the Python World</template>
+	</category>
+	<category>
+		<pattern>Hello</pattern>
+		<template>Hello User, Welcome to learning of the Python World</template>
+	</category>
+	<category>
+		<pattern>WHAT IS YOUR OS</pattern>
+		<template>Chat robots run on any machine that supports AIML.  </template>
+	</category>  
+	<category>
+		<pattern>WHAT OPERATING SYSTEM *</pattern>
+		<template>
+			<srai>WHAT IS YOUR OS</srai>
+		</template>
+	</category>  
+	<category>
+		<pattern>WHAT OS *</pattern>
+		<template>
+			<srai>WHAT IS YOUR OS</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>Hey</pattern>
+		<template>People call me Python Buddy</template>
+	</category> 
+	<category>
+		<pattern>Python</pattern>
+		<template>Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.</template>
+	</category>
+	<category>
+		<pattern>What is Python</pattern>
+		<template>
+		<srai>Python</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>What is Python?</pattern>
+		<template>
+		<srai>Python</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>What is your name?</pattern>
+		<template>People call me Python Buddy</template>
+	</category>
+	<category>
+		<pattern>List</pattern>
+		<template>A list is a data structure in Python that is a changeable, ordered sequence of elements, represented by sqaure brackets</template>
+	</category>
+	<category>
+		<pattern>Tuple</pattern>
+		<template>A tuple is a collection which is ordered and unchangeable, represented with round brackets.</template>
+	</category>
+	<category>
+		<pattern>Dictionary</pattern>
+		<template>A dictionary is a collection which is unordered, changeable and indexed, represented with curly brackets.</template>
+	</category>
+	<category>
+		<pattern>*</pattern>
+		<template>Sorry ill try to learn this by nexttime</template>
+	</category>  
+</aiml>
